@@ -11,8 +11,8 @@ import AccordionCard from "../AccordionCard/AccordionCard"
 
 function Skills(){
   return (
-    <section className="bg-[#04152C] p-[20px]">
-      <h2 className="mb-6 m-2 text-3xl text-white">Hard-Skills</h2>
+    <section className="bg-[#04152C]  sm: p-7">
+      <h2 className="mb-6 m-2 text-3xl text-white text-center font-roboto">Hard-Skills</h2>
       <div>
         <div className="flex gap-5 items-center justify-center flex-wrap">
           <img src={html5Image} alt="HTML5" className="w-15"/>
@@ -26,7 +26,7 @@ function Skills(){
           <img src={GitImage} alt="Git" className="w-15"/>
           <img src={GitHubImage} alt="GitHub" className="w-15"/>
         </div>
-        <h2 className="m-8 text-3xl text-white">Soft-Skills</h2>
+        <h2 className="m-8 text-3xl text-white text-center font-roboto">Soft-Skills</h2>
 
         <div>
       <AccordionCard

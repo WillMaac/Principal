@@ -4,11 +4,11 @@ import Card from "../Card/Card";
 function Sobre() {
   return (
     <section className="bg-[#080F19]" id="sobre">
-      <h2 className="text-center p-5 text-3xl text-white xl:py-10 lg:text-5xl">
+      <h2 className="text-center p-5 text-3xl text-white xl:py-10 lg:text-5xl font-roboto">
         Sobre min
       </h2>
-      <div className="max-w-[1220px]  mx-auto">
-        <p className="  text-center text-[18px] xl:text-2xl  text-white  py-10  xl:text-justify lg:text-[30px] 2xl:text-3xl">
+      <div className="max-w-[1220px]  mx-auto sm: p-5">
+        <p className="text-justify text-lg text-white leading-relaxed px-4 sm:px-8 xl:px-0 max-w-[1000px] mx-auto font-poppins">
           Olá, sou Anderson De Jesus, desenvolvedor front-end apaixonado por
           transformar ideias em interfaces modernas, funcionais e centradas no
           usuário. Sou estudante de Análise e Desenvolvimento de Sistemas, e

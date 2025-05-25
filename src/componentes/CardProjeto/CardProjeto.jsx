@@ -9,8 +9,8 @@ const ProjetoCard = ({ title, image, techs, codeLink, previewLink }) => {
 
   return (
 
-    <div className="bg-[#fff] border-2 border-none rounded-xl p-4   text-center w-[330px] h-auto overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 shadow-[5px_5px_5px_#f70404]">
-      <h2 className="text-xl font-semibold mb-4">{title}</h2>
+    <div className="bg-[#fff] border-2 border-none rounded-xl p-4   text-center w-[330px] h-auto overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 shadow-[5px_5px_5px_#33f303]">
+      <h2 className="text-xl mb-4 font-poppins">{title}</h2>
       <div className="flex justify-center mb-4 ">
       <img
         src={image}
@@ -24,12 +24,12 @@ const ProjetoCard = ({ title, image, techs, codeLink, previewLink }) => {
       </div>
       <div className="flex justify-center gap-20">
         <a href={codeLink} target="_blank" rel="noopener noreferrer">
-          <button className="bg-yellow-400 px-4 py-1 rounded-full font-medium hover:bg-yellow-500 cursor-pointer">
+          <button className="bg-yellow-400 px-4 py-1 rounded-full font-medium hover:bg-yellow-500 cursor-pointer font-poppins">
             Código
           </button>
         </a>
         <a href={previewLink} target="_blank" rel="noopener noreferrer">
-          <button className="bg-yellow-400 px-4 py-1 rounded-full font-medium hover:bg-yellow-500 cursor-pointer">
+          <button className="bg-yellow-400 px-4 py-1 rounded-full font-medium hover:bg-yellow-500 cursor-pointer font-poppins">
             Preview
           </button>
         </a>

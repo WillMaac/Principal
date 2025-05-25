@@ -8,13 +8,13 @@ function Card({ titulo, descricao, textoBotao, onClick }) {
         className="
         flex flex-col items-center
         bg-white
-        border-2 border-green-300
+        border-2 border-none
         rounded-xl 
         p-6 
         max-w-[290px]
         h-[360px]
         text-center
-        shadow-md
+        
         transition-transform duration-300 ease-in-out
         hover:scale-105
         md:max-w-[460px]
@@ -24,11 +24,12 @@ function Card({ titulo, descricao, textoBotao, onClick }) {
         md:my-3 md:mx-auto
         xl:my-3 xl:mx-auto
         
+        shadow-[5px_5px_5px_#33f303]
       "
       >
-        <h2 className="text-2xl mb-4">{titulo}</h2>
+        <h2 className="text-2xl mb-4 font-roboto">{titulo}</h2>
 
-        <p className="text-gray-700 mb-6">{descricao}</p>
+        <p className="text-gray-700 mb-6 font-poppins">{descricao}</p>
 
         <button
           className="
@@ -39,7 +40,7 @@ function Card({ titulo, descricao, textoBotao, onClick }) {
             cursor-pointer
             transition-colors duration-300 ease-in-out
             hover:bg-gray-800 
-          "
+          font-poppins"
           onClick={onClick}
         >
           {textoBotao}
@@ -50,15 +51,3 @@ function Card({ titulo, descricao, textoBotao, onClick }) {
 }
 
 export default Card;
-
-// Exemplo de uso (opcional, apenas para demonstração)
-// const App = () => {
-//   return (
-//     <Card
-//       titulo="Título do Card"
-//       descricao="Esta é a descrição do card, explicando seu conteúdo de forma breve."
-//       textoBotao="Clique Aqui"
-//       onClick={() => alert('Botão clicado!')}
-//     />
-//   );
-// }
