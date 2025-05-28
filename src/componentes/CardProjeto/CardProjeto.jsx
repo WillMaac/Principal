@@ -15,7 +15,7 @@ const ProjetoCard = ({ title, image, techs, codeLink, previewLink }) => {
       <img
         src={image}
         alt={`Imagem do projeto ${title}`}
-        className="p-1 max-w-[330px] h-[500px] rounded-2xl "
+        className="p-1 max-w-[330px] h-[500px] rounded-2xl object-cover"
 
       />
       </div>
